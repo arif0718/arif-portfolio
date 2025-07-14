@@ -42,8 +42,8 @@ An online **Student Council Election System** built using **PHP** and **MySQL**,
 ---
 
 ## 📷 Screenshots
-
-pemding...
+pending...
+  
 ---
 
 ## 📬 Contact
