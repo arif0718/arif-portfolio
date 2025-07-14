@@ -36,6 +36,8 @@ import agcLogo from './assets/company_logo/agc_logo.png';
 import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
 
 // Education Section Logo's
+import lpulogo from './assets/education_logo/lpulogo.png';
+import gvt_logo from './assets/education_logo/gvt_logo.png';
 import glaLogo from './assets/education_logo/gla_logo.png';
 import bsaLogo from './assets/education_logo/bsa_logo.png';
 import vpsLogo from './assets/education_logo/vps_logo.png';
@@ -49,7 +51,6 @@ import pollfusionLogo from './assets/work_logo/pollfusion.png';
 import arifportfolioLogo from './assets/work_logo/arifportfolio.png';
 import currConvertorlogo from './assets/work_logo/currConvertor.png';
 import victoryFingerLogo from './assets/work_logo/victoryFinger.png';
-import removebgLogo from './assets/work_logo/remove_bg.png';
 
 
 export const SkillsInfo = [
@@ -165,40 +166,31 @@ export const SkillsInfo = [
   export const education = [
     {
       id: 0,
-      img: glaLogo,
-      school: "GLA University, Mathura",
-      date: "Sept 2022 - July 2024",
-      grade: "7.81 CGPA",
-      desc: "I have completed my Master's degree (MCA) in Computer Applications from GLA University, Mathura. During my time at GLA, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at GLA University has been instrumental in shaping my technical abilities and professional growth.",
-      degree: "Master of Computer Applications - MCA",
+      img: lpulogo,
+      school: "Lovely Professional University, Punjab",
+      date: "Aug 2022 - July 2026",
+      grade: "7.79 CGPA",
+      desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Lovely Professional University, Punjab (2022–2026), with a current CGPA of 7.79. I have studied key subjects such as Data Structures and Algorithms, OOPs, DBMS, and Operating Systems. During my time at LPU, I have built multiple full-stack projects using technologies like React.js, Node.js, MongoDB, and PHP. I am also continuously improving my problem-solving skills and have earned the 100 Days badge on LeetCode for consistent DSA practice.",
+      degree: "Bachelor of technology in Computer Science & Engineering - B.Tech",
     },
     {
       id: 1,
-      img: bsaLogo,
-      school: "BSA College, Mathura",
-      date: "Sept 2018 - Aug 2021",
-      grade: "73.2%",
-      desc: "I completed my Bachelor's degree in Computer Science (B.Sc.) from BSA College, Mathura. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of software development. My time at BSA College allowed me to work on projects that applied theoretical concepts to real-world problems.",
-      degree: "Bachelor of Science - BSC (Computer Science)",
-    },
-    {
-      id: 2,
-      img: vpsLogo,
-      school: "Vatsalya Public School Govardhan, Mathura",
-      date: "Apr 2017 - March 2018",
-      grade: "78%",
-      desc: "I completed my class 12 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Physics, Chemistry, and Mathematics (PCM) with Computer Science.",
+      img: gvt_logo,
+      school: "Govind Vidyalaya Tamulia, Jamshedpur",
+      date: "Apr 2020 - May 2022",
+      grade: "71%",
+      desc: "I completed my Intermediate (Class 12) education in the Science stream from Govind Vidyalaya Tamulia, Jamshedpur, Jharkhand in 2022, securing 71%. My coursework included subjects like Physics, Chemistry, Mathematics, and Computer Science, which helped me develop analytical thinking and a strong interest in technology. This academic phase laid the foundation for my pursuit of a degree in Computer Science and Engineering, and motivated me to explore programming and problem-solving more deeply.",
       degree: "CBSE(XII) - PCM with Computer Science",
     },
     {
-      id: 3,
-      img: vpsLogo,
-      school: "Vatsalya Public School Govardhan, Mathura",
-      date: "Apr 2015 - March 2016",
-      grade: "87.5%",
-      desc: "I completed my class 10 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Science with Computer.",
+      id: 2,
+      img: gvt_logo,
+      school: "Govind Vidyalaya Tamulia, Jamshedpur",
+      date: "Mar 2007 - May 2020",
+      grade: "83%",
+      desc: "I completed my Matriculation (Class 10) from Govind Vidyalaya Tamulia, Jamshedpur, Jharkhand in 2020, securing 83%. During this phase, I developed a strong interest in subjects like Mathematics, Science, and Computer Applications, which laid the foundation for my logical thinking and problem-solving abilities. This early exposure to technology and academic discipline motivated me to pursue the science stream in higher secondary and ultimately led me to choose Computer Science and Engineering as my field of study at the university level.",
       degree: "CBSE(X), Science with Computer Application",
-    },
+    }
   ];
   
   export const projects = [
