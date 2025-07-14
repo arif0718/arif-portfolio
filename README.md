@@ -50,9 +50,9 @@ pending...
 
 Want to connect? Reach out to me here:
 
-- LinkedIn: [your-linkedin](https://www.linkedin.com/in/md-arif-ansari-fullstack/)
+- LinkedIn: https://www.linkedin.com/in/md-arif-ansari-fullstack/
 - Email: `arifansari90467@gmail.com`
-- Portfolio: [your-portfolio-link.com](https://arif-portfolio-xi.vercel.app/)
+- Portfolio: https://arif-portfolio-xi.vercel.app/
 
 ---
 
