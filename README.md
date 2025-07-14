@@ -43,8 +43,7 @@ An online **Student Council Election System** built using **PHP** and **MySQL**,
 
 ## 📷 Screenshots
 
-> *(Include 1–2 screenshots of your portfolio sections like Projects or Skills here)*
-
+pemding...
 ---
 
 ## 📬 Contact
