@@ -4,17 +4,10 @@ import shadcnLogo from './assets/tech_logo/shadcn.png';
 import axiosLogo from './assets/tech_logo/axios.png';
 import viteLogo from './assets/tech_logo/vite.png';
 import cssLogo from './assets/tech_logo/css.png';
-import sassLogo from './assets/tech_logo/sass.png';
 import javascriptLogo from './assets/tech_logo/javascript.png';
 import reactjsLogo from './assets/tech_logo/reactjs.png';
-import angularLogo from './assets/tech_logo/angular.png';
 import reduxLogo from './assets/tech_logo/redux.png';
-import nextjsLogo from './assets/tech_logo/nextjs.png';
 import tailwindcssLogo from './assets/tech_logo/tailwindcss.png';
-import gsapLogo from './assets/tech_logo/gsap.png';
-import materialuiLogo from './assets/tech_logo/materialui.png';
-import bootstrapLogo from './assets/tech_logo/bootstrap.png';
-import springbootLogo from './assets/tech_logo/springboot.png';
 import nodejsLogo from './assets/tech_logo/nodejs.png';
 import expressjsLogo from './assets/tech_logo/express.png';
 import socketLogo from './assets/tech_logo/socket.png';
@@ -22,7 +15,6 @@ import mysqlLogo from './assets/tech_logo/mysql.png';
 import mongodbLogo from './assets/tech_logo/mongodb.png';
 import jwtLogo from './assets/tech_logo/jwt.png';
 import cloudinaryLogo from './assets/tech_logo/cloudinary.png';
-import firebaseLogo from './assets/tech_logo/firebase.png';
 import cLogo from './assets/tech_logo/c.png';
 import cppLogo from './assets/tech_logo/cpp.png';
 import javaLogo from './assets/tech_logo/java.png';
@@ -37,8 +29,6 @@ import mcLogo from './assets/tech_logo/mc.png';
 import figmaLogo from './assets/tech_logo/figma.png';
 import netlifyLogo from './assets/tech_logo/netlify.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
-import postgreLogo from './assets/tech_logo/postgre.png';
-import csharpLogo from './assets/tech_logo/csharp.png';
 
 // Experience Section Logo's
 import webverseLogo from './assets/company_logo/webverse_logo.png';
@@ -56,14 +46,9 @@ import chatroomLogo from './assets/work_logo/chat-room.png';
 import votingLogo from './assets/work_logo/voting.jpeg';
 import instavibeLogo from './assets/work_logo/instavibe.png';
 import pollfusionLogo from './assets/work_logo/pollfusion.png';
-import githubdetLogo from './assets/work_logo/github_det.png';
-import csprepLogo from './assets/work_logo/cs_prep.png';
-import movierecLogo from './assets/work_logo/movie_rec.png';
-import taskremLogo from './assets/work_logo/task_rem.png';
-import npmLogo from './assets/work_logo/npm.png';
-import webverLogo from './assets/work_logo/web_dig.png';
-import cmLogo from './assets/work_logo/cm.png';
-import imagesearchLogo from './assets/work_logo/image_search.png';
+import arifportfolioLogo from './assets/work_logo/arifportfolio.png';
+import currConvertorlogo from './assets/work_logo/currConvertor.png';
+import victoryFingerLogo from './assets/work_logo/victoryFinger.png';
 import removebgLogo from './assets/work_logo/remove_bg.png';
 
 
@@ -224,7 +209,7 @@ export const SkillsInfo = [
       description:
         "iintellex is a modern, full-stack MERN application built for collaborative knowledge sharing. Designed for students and professionals alike, it allows users to post questions, share insights, engage in real-time chat, and build meaningful connections. With features like following, commenting, and a personalized feed, iintellex blends the best of social media and educational platforms to foster an interactive learning community.",
       image: iintellexLogo,
-      tags: ["React JS", "Vite", "Redux", "Axios", "Tailwind CSS", "Shadcn UI", "Node.js", "Express.js", "MongoDB", "Mongoose", "Cloudinary","JWT", "bcrypt", "Nodemailer", "Socket.io"],
+      tags: ["React JS", "Vite", "Redux", "Axios", "Tailwind CSS", "Shadcn UI", "Node.js", "Express.js", "MongoDB", "Mongoose", "Cloudinary","JWT", "bcrypt", "Nodemailer", "Socket.io", "HTML", "XML", 'CSS'],
       github: "https://github.com/arif0718/iintellex-knowledge-sharing-platform",
       webapp: "https://iintellex.vercel.app/",
     },
@@ -274,42 +259,35 @@ export const SkillsInfo = [
     },
     {
       id: 5,
-      title: "Webverse Digital",
+      title: "Arif Portfolio",
+      subtiltle: "My personal Portfolio",
       description:
-        "The official website for Webverse Digital, a creative digital marketing agency. Built using HTML, CSS, and JavaScript, it features visually appealing animations and a clean design to showcase the agency's services.",
-      image: webverLogo,
-      tags: ["HTML", "CSS", "JavaScript", "Framer Motion"],
-      github: "https://github.com/codingmastr/Webverse-Digital",
-      webapp: "https://webversedigital.com/",
+        "Arif Portfolio is my personal developer portfolio crafted using React, Tailwind CSS, and Vite. It presents a snapshot of who I am as a developer — combining frontend and backend skills to build real-world applications. The site features sections like About, Skills, Projects, and Contact, with responsive layout and animations. Projects like iintellex (a social Q&A platform) and PollFusion (an online election system) are included to demonstrate my problem-solving and full-stack capabilities.",
+      image: arifportfolioLogo,
+      tags: ["React JS", "Vite", "Tailwind CSS", "HTML", "CSS", "JavaScript"],
+      github: "https://github.com/arif0718/arif-portfolio",
+      // webapp: "https://webversedigital.com/",
     },
     {
       id: 6,
-      title: "Coding Master",
+      title: "CoinSwap",
+      subtiltle: "Currency Convertor",
       description:
-        "An ed-tech platform where users can access tech and coding-related blogs, notes, interview questions, e-books, and premium content with payment integration. Built with full-stack technologies for a seamless learning experience.",
-      image: cmLogo,
-      tags: ["React JS", "Node.js", "MongoDB", "Express", "Payment Integration"],
-      github: "https://codingmasterweb.in/",
-      webapp: "https://codingmasterweb.in/",
+        "This Currency Converter is a responsive web application that enables users to convert between different global currencies with real-time exchange rates. Built using HTML, CSS, and JavaScript, the app fetches live conversion data from a public API and offers a clean, intuitive interface. Ideal for quick financial calculations, travel planning, or currency education.",
+      image: currConvertorlogo,
+      tags: ["HTML5", "CSS3", "JavaScript", "API"],
+      github: "https://github.com/arif0718/Currency-Convertor",
+      // webapp: "https://codingmasterweb.in/",
     },
     {
       id: 7,
-      title: "Image Search App",
+      title: "VictoryFingers",
+      subtiltle: "Rock-Paper-Scissors game",
       description:
-        "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
-      image: imagesearchLogo,
-      tags: ["React JS", "API", "Search Feature", "CSS", "Javascript"],
-      github: "https://github.com/codingmastr/Image-Search-App",
-      webapp: "https://imagsearch.netlify.app/",
-    },
-    {
-      id: 8,
-      title: "Image Background Remover",
-      description:
-        "An efficient background removal app built with React.js and API integration. Users can upload any image, remove the background, and download the transparent version for further use.",
-      image: removebgLogo,
-      tags: ["React JS", "API", "Image Processing", "HTML", "CSS", "Javascript"],
-      github: "https://github.com/codingmastr/Image-Background-Remover",
-      webapp: "https://removeyourbg.netlify.app/",
+        "This is a fun and interactive Rock-Paper-Scissors game developed using HTML, CSS, and JavaScript (or React if applicable). Users can play against the computer with real-time result feedback and smooth animations. The interface is clean, responsive, and beginner-friendly — making it an ideal project for demonstrating logic building and event handling in frontend development.",
+      image: victoryFingerLogo,
+      tags: ["HTML5", "CSS3", "JavaScript"],
+      github: "https://github.com/arif0718/rockpaperscissor",
+      // webapp: "https://imagsearch.netlify.app/",
     },
   ];  
