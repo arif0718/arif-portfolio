@@ -14,7 +14,7 @@ import socketLogo from './assets/tech_logo/socket.png';
 import mysqlLogo from './assets/tech_logo/mysql.png';
 import mongodbLogo from './assets/tech_logo/mongodb.png';
 import jwtLogo from './assets/tech_logo/jwt.png';
-import cloudinaryLogo from './assets/tech_logo/cloudinary.png';
+import cloudinaryLogo from './assets/tech_logo/cloudinary_logo.png';
 import cLogo from './assets/tech_logo/c.png';
 import cppLogo from './assets/tech_logo/cpp.png';
 import javaLogo from './assets/tech_logo/java.png';
