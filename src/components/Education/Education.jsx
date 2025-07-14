@@ -40,14 +40,14 @@ const Education = () => {
 
             {/* Content Section */}
             <div
-              className={`w-full sm:max-w-md p-4 sm:p-8 rounded-2xl shadow-2xl border border-white bg-gray-900 backdrop-blur-md shadow-[0_0_20px_1px_rgba(130,69,236,0.3)] ${
+              className={`w-full sm:max-w-md p-4 sm:p-8 rounded-2xl border border-white bg-gray-900 backdrop-blur-md shadow-[0_0_20px_1px_rgba(130,69,236,0.3)] ${
                 index % 2 === 0 ? "sm:ml-0" : "sm:mr-0"
               } sm:ml-44 sm:mr-44 ml-8 transform transition-transform duration-300 hover:scale-105`}
             >
               {/* Flex container for image and text */}
-              <div className="flex items-center space-x-6">
+              <div className="flex space-x-6">
                 {/* School Logo/Image */}
-                <div className="w-24 h-16 bg-white rounded-md overflow-hidden">
+                <div className="w-24 h-16 mt-2 bg-white rounded-md overflow-hidden">
                   <img
                     src={edu.img}
                     alt={edu.school}
@@ -58,11 +58,11 @@ const Education = () => {
                 {/* Degree, School Name, and Date */}
                 <div className="flex flex-col justify-between">
                   <div>
-                    <h3 className="text-xl sm:text-xl font-semibold text-white">
-                      {edu.degree}
+                    <h3 className="text-xl sm:text-xl text-white">
+                      {edu.school}
                     </h3>
                     <h4 className="text-md sm:text-sm text-gray-300">
-                      {edu.school}
+                      {edu.degree}
                     </h4>
                   </div>
                   {/* Date at the bottom */}

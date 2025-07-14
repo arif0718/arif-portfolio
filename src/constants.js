@@ -38,9 +38,6 @@ import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
 // Education Section Logo's
 import lpulogo from './assets/education_logo/lpulogo.png';
 import gvt_logo from './assets/education_logo/gvt_logo.png';
-import glaLogo from './assets/education_logo/gla_logo.png';
-import bsaLogo from './assets/education_logo/bsa_logo.png';
-import vpsLogo from './assets/education_logo/vps_logo.png';
 
 // Project Section Logo's
 import iintellexLogo from './assets/work_logo/iintellex.png';
