@@ -6,7 +6,7 @@ A modern, responsive, and professional **portfolio website** to showcase my skil
 
 ## 🚀 Live Demo
 
-🔗 [View Portfolio](https://your-portfolio-link.com)
+🔗 [View Portfolio](https://arif-portfolio-xi.vercel.app/)
 
 ---
 
@@ -50,9 +50,9 @@ pending...
 
 Want to connect? Reach out to me here:
 
-- LinkedIn: [your-linkedin](https://www.linkedin.com/in/md-arif-ansari-fullstack/)
+- LinkedIn: https://www.linkedin.com/in/md-arif-ansari-fullstack/
 - Email: `arifansari90467@gmail.com`
-- Portfolio: [your-portfolio-link.com](https://your-portfolio-link.com)
+- Portfolio: https://arif-portfolio-xi.vercel.app/
 
 ---
 
